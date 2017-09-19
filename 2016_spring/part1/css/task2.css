@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    font-family: "Microsoft Yahei";
+    background: gray;
+    width: 100%;
+ }
+
+#header {
+    background: black;
+    width: 100%;
+}
+
+object {
+    padding-left: 10px;
+}
+
+
+nav {
+    float: right;
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: red;
+}
+
+#container {
+    clear: both;
+}
+article, aside{
+    background: white;
+    padding: 4em;
+    margin:2em;
+}
+
+article h2,
+article h3,
+article span,
+article p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ol {
+    margin-top: 20px;
+
+}
+
+ol li {
+    margin-left: 30px;
+}
+footer {
+    background: black;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+}
+
+figure {
+    border: 1px solid green;
+    padding:20px;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+figcaption {
+    margin-bottom: 5px;
+}
+
+thead {
+    background: black;
+    color: white;
+}
+tfoot {
+    background: gray;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, thead, tbody, tfoot,th,td{
+    border: 1px solid black;
+}
+
+
+
+aside h2{
+    border-left: 3px solid #ccc;
+    padding-left: 10px;
+}
+
+.row {
+    margin: 10px auto;
+}
+
+.row span {
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+
+
+
+#submit {
+    width: 100%;
+    background: blue;
+    line-height: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+form p {
+    margin-left: 51%;
+    color: gray;
+    font-size: 0.7em;
+}
