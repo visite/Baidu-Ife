@@ -1,0 +1,53 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+aside {
+    padding: 20px;
+    border: 1px solid #999;
+}
+
+
+#team img {
+    float: left;
+    margin-right: 5px;
+}
+
+article {
+    border: 1px solid #999;
+    margin: 0 20px;
+    padding: 20px;
+    width: calc(100% - 200px - 120px - 60px);
+
+}
+
+aside, article {
+    display: inline-block;
+    vertical-align: top;
+    background: white;
+}
+
+#container {
+    padding: 20px;
+    background: #eee;
+    border: 1px solid #999;
+    margin: 20px;
+}
+
+
+
+#team {
+    width: 200px;
+
+}
+
+#person {
+    width: 120px;
+
+}
